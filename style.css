@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 3rem;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-container {
+  margin-top: 3rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.logo-container img {
+  max-width: 100px;
+}
+
+/* REGISTRATION NUM */
+.registration-num h4 span {
+  color: red;
+}
+
+main {
+  border: solid black;
+  min-height: 100vh;
+}
+
+section {
+  padding-bottom: 1rem;
+}
+
+.general-info-header-1 {
+  background-color: #ddccff;
+  text-align: center;
+  padding: 0.3rem;
+  border-bottom: solid black;
+}
+
+.general-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.gender-age {
+  display: flex;
+  gap: 2rem;
+}
+
+.general-info-header-2 {
+  background-color: #ddccff;
+  padding: 0.3rem;
+  border-bottom: solid black;
+  border-top: solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.unit div {
+  display: flex;
+  gap: 1rem;
+}
+
